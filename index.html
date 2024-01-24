@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!--This declaration specifies the document type and version of HTML being used, which is HTML5 in this case.-->
+<html lang="en"><!--The opening tag for the HTML document. The lang="en" attribute indicates that the content is in English.-->
+<head>          <!--This section contains meta-information about the HTML document and links to external resources.-->
+    <meta charset="UTF-8"><!--Specifies the character encoding for the document, ensuring proper rendering of text.-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--This meta tag is used to specify how Internet Explorer should render the webpage. It sets X-UA-Compatible to IE=edge, which means to use the latest version of the rendering engine.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Defines the viewport properties for responsive web design. It sets the initial scale to 1.0, and the width to the device width.-->
+    <title>STip Calculator</title><!--Sets the title of the HTML document, which will be displayed in the browser tab.-->
+    <link rel="stylesheet" href="style.css"><!--Links an external CSS stylesheet named "style.css" to the HTML document. This stylesheet likely contains styling rules for the webpage.-->
+</head><!--Closes the head section of the HTML document.-->
+    
+<body><!--This is the body of the HTML document, where the actual content of the webpage resides.-->
+    <div class="container"><!--Defines a container div with the class "container". This is a common practice for styling purposes, allowing easy application of styles to a specific section of the page.-->
+        <h1>Tip Calculator</h1><!--Displays the main heading of the webpage as "Tip Calculator".-->
+        <p>Enter the bill amount and tip percentage to calculate the total.</p><!--Provides a brief description or instruction to the user.-->
+        <label for="bill">Bill amount:</label><!--Labels the input field for the bill amount.-->
+        <input type="number" id="bill"><!--Creates an input field for the user to enter the bill amount. The type="number" indicates that only numeric input is allowed.-->
+        <br/><!--Adds a line break for better spacing.-->
+        <label for="tip">Tip percentage:</label><!--Labels the input field for the tip percentage.        -->
+        <input type="number" id="tip"><!--Creates an input field for the user to enter the tip percentage.-->
+        <br/><!--Adds another line break.-->
+        <button id="calculate">Calculate</button><!--Creates a button with the id "calculate". This is likely the button the user will click to perform the tip calculation.-->
+        <br/><!--Adds another line break.-->
+        <label for="total">Total:</label><!--Labels the area where the total amount will be displayed.-->
+        <span id="total"></span><!--Creates a span element with the id "total". This is likely where the calculated total amount will be displayed.-->
+
+    </div><!--Closes the container div.-->
+    <script src="index.js"></script><!--Links an external JavaScript file named "index.js" to the HTML document. This script likely contains the logic for calculating the total based on user input.-->
+</body><!--Closes the body section of the HTML document.-->
+</html><!--Closes the HTML document.-->
+
+
+<!--In summary, this HTML code defines a simple webpage for a tip calculator. It includes input fields for the bill amount and tip percentage, a button to calculate the total, and an area to display the calculated total. The styling is likely handled by an external CSS file, and the calculation logic is likely implemented in an external JavaScript file.-->
+    
